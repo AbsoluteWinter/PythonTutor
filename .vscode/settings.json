@@ -19,4 +19,10 @@
     ],
     "code-runner.runInTerminal": true,
     "code-runner.saveFileBeforeRun": true,
+    "notebook.defaultFormatter": "ms-python.black-formatter",
+    "notebook.formatOnCellExecution": true,
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.organizeImports": "explicit"
+    },
 }
